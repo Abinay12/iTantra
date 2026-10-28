@@ -1,0 +1,128 @@
+# Speech Processing Configuration for iTantra
+
+audio:
+  sample_rate: 16000      # Standard sampling rate for speech processing (Hz)
+  num_channels: 1         # Mono audio
+  bit_depth: 16           # 16-bit PCM
+  hop_length: 256         # STFT hop length
+  n_fft: 1024             # STFT FFT size
+  n_mels: 80              # Number of Mel filterbank bins
+
+languages:
+  supported:
+    - code: "te"
+      name: "Telugu"
+      script: "Telugu"
+      locale: "te-IN"
+      mms_model_id: "facebook/mms-tts-tel"
+      neural_voice: "te-IN-MohanNeural"
+      tts_available: true
+      stt_available: true
+      in_scope: true
+      tts_verified: true
+      status: "fully_supported"
+      verification_status: "verified"
+    - code: "hi"
+      name: "Hindi"
+      script: "Devanagari"
+      locale: "hi-IN"
+      mms_model_id: "facebook/mms-tts-hin"
+      neural_voice: "hi-IN-MadhurNeural"
+      tts_available: true
+      stt_available: true
+      in_scope: true
+      tts_verified: true
+      status: "fully_supported"
+      verification_status: "verified"
+    - code: "ta"
+      name: "Tamil"
+      script: "Tamil"
+      locale: "ta-IN"
+      mms_model_id: "facebook/mms-tts-tam"
+      neural_voice: "ta-IN-ValluvarNeural"
+      tts_available: true
+      stt_available: true
+      in_scope: true
+      tts_verified: true
+      status: "fully_supported"
+      verification_status: "verified"
+    - code: "bn"
+      name: "Bengali"
+      script: "Bengali"
+      locale: "bn-IN"
+      mms_model_id: "facebook/mms-tts-ben"
+      neural_voice: "bn-IN-BashkarNeural"
+      tts_available: true
+      stt_available: true
+      in_scope: true
+      tts_verified: true
+      status: "fully_supported"
+      verification_status: "verified"
+    - code: "mr"
+      name: "Marathi"
+      script: "Devanagari"
+      locale: "mr-IN"
+      mms_model_id: "facebook/mms-tts-mar"
+      neural_voice: "mr-IN-AarohiNeural"
+      tts_available: true
+      stt_available: true
+      in_scope: true
+      tts_verified: true
+      status: "fully_supported"
+      verification_status: "verified"
+    - code: "kn"
+      name: "Kannada"
+      script: "Kannada"
+      locale: "kn-IN"
+      mms_model_id: "facebook/mms-tts-kan"
+      neural_voice: "kn-IN-GaganNeural"
+      tts_available: true
+      stt_available: true
+      in_scope: true
+      tts_verified: true
+      status: "fully_supported"
+      verification_status: "verified"
+    - code: "ml"
+      name: "Malayalam"
+      script: "Malayalam"
+      locale: "ml-IN"
+      mms_model_id: "facebook/mms-tts-mal"
+      neural_voice: "ml-IN-MidhunNeural"
+      tts_available: true
+      stt_available: true
+      in_scope: true
+      tts_verified: true
+      status: "fully_supported"
+      verification_status: "verified"
+    - code: "gu"
+      name: "Gujarati"
+      script: "Gujarati"
+      locale: "gu-IN"
+      mms_model_id: "facebook/mms-tts-guj"
+      neural_voice: "gu-IN-NiranjanNeural"
+      tts_available: false
+      stt_available: true
+      in_scope: false
+      tts_verified: false
+      status: "out_of_scope"
+      verification_status: "out_of_scope"
+
+tts:
+  engine_type: "auto" # Options: "neural", "mms", "lightweight", "auto"
+  default_language: "hi"
+  speed: 1.0
+  pitch: 1.0
+  mms_models:
+    te: "facebook/mms-tts-tel"
+    hi: "facebook/mms-tts-hin"
+    ta: "facebook/mms-tts-tam"
+    bn: "facebook/mms-tts-ben"
+    mr: "facebook/mms-tts-mar"
+    kn: "facebook/mms-tts-kan"
+    ml: "facebook/mms-tts-mal"
+
+stt:
+  engine_type: "whisper" # Options: "whisper", "lightweight", "auto"
+  default_language: "hi"
+  vad_enabled: true          # Voice Activity Detection
+  confidence_threshold: 0.65

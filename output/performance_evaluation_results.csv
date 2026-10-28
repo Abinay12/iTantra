@@ -1,0 +1,230 @@
+# iTantra Neural Transceiver Performance Evaluation Results
+# Evaluation Type: Software Simulation (SimulatedSDR + AWGN/Rayleigh)
+# Timestamp: 2026-10-26 22:36:41
+# Total Trials: 224
+# Disclaimer: No physical radio or phone hardware was utilized.
+trial_id,msg_id,language,text,channel_type,snr_db,configured_loss_rate,configured_corruption_rate,priority,ttl_sec,status,is_delivered,is_expired,is_failed,retry_count,max_retries,latency_ms,packets_transmitted,packets_lost,crc_failures,sym_mse,feature_mse,error
+TRIAL_0001,EVAL_TRIAL_0001,hi,आपातकालीन चिकित्सा सहायता की आवश्यकता है!,awgn,15.0,0.0,0.0,emergency,,delivered,1,0,0,0,3,206.58,55,0,0,0.032343,4.547347,
+TRIAL_0002,EVAL_TRIAL_0002,hi,आपातकालीन चिकित्सा सहायता की आवश्यकता है!,awgn,15.0,0.0,0.0,emergency,0.05,expired,0,1,0,0,3,0.56,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0003,EVAL_TRIAL_0003,hi,आपातकालीन चिकित्सा सहायता की आवश्यकता है!,awgn,15.0,0.0,0.1,emergency,,delivered,1,0,0,1,3,352.75,110,0,55,0.032707,4.547347,
+TRIAL_0004,EVAL_TRIAL_0004,hi,आपातकालीन चिकित्सा सहायता की आवश्यकता है!,awgn,15.0,0.0,0.1,emergency,0.05,expired,0,1,0,0,3,0.37,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0005,EVAL_TRIAL_0005,hi,आपातकालीन चिकित्सा सहायता की आवश्यकता है!,awgn,15.0,0.25,0.0,emergency,,delivered,1,0,0,1,3,329.53,110,55,0,0.032469,4.547347,
+TRIAL_0006,EVAL_TRIAL_0006,hi,आपातकालीन चिकित्सा सहायता की आवश्यकता है!,awgn,15.0,0.25,0.0,emergency,0.05,expired,0,1,0,0,3,0.32,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0007,EVAL_TRIAL_0007,hi,आपातकालीन चिकित्सा सहायता की आवश्यकता है!,awgn,15.0,0.25,0.1,emergency,,delivered,1,0,0,1,3,298.11,110,55,0,0.031668,4.547347,
+TRIAL_0008,EVAL_TRIAL_0008,hi,आपातकालीन चिकित्सा सहायता की आवश्यकता है!,awgn,15.0,0.25,0.1,emergency,0.05,expired,0,1,0,0,3,0.47,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0009,EVAL_TRIAL_0009,hi,आपातकालीन चिकित्सा सहायता की आवश्यकता है!,rayleigh,15.0,0.0,0.0,emergency,,delivered,1,0,0,0,3,253.09,55,0,0,0.031935,4.547347,
+TRIAL_0010,EVAL_TRIAL_0010,hi,आपातकालीन चिकित्सा सहायता की आवश्यकता है!,rayleigh,15.0,0.0,0.0,emergency,0.05,expired,0,1,0,0,3,0.48,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0011,EVAL_TRIAL_0011,hi,आपातकालीन चिकित्सा सहायता की आवश्यकता है!,rayleigh,15.0,0.0,0.1,emergency,,delivered,1,0,0,1,3,405.48,110,0,55,0.031065,4.547347,
+TRIAL_0012,EVAL_TRIAL_0012,hi,आपातकालीन चिकित्सा सहायता की आवश्यकता है!,rayleigh,15.0,0.0,0.1,emergency,0.05,expired,0,1,0,0,3,0.26,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0013,EVAL_TRIAL_0013,hi,आपातकालीन चिकित्सा सहायता की आवश्यकता है!,rayleigh,15.0,0.25,0.0,emergency,,delivered,1,0,0,0,3,222.19,55,0,0,0.032746,4.547347,
+TRIAL_0014,EVAL_TRIAL_0014,hi,आपातकालीन चिकित्सा सहायता की आवश्यकता है!,rayleigh,15.0,0.25,0.0,emergency,0.05,expired,0,1,0,0,3,0.22,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0015,EVAL_TRIAL_0015,hi,आपातकालीन चिकित्सा सहायता की आवश्यकता है!,rayleigh,15.0,0.25,0.1,emergency,,delivered,1,0,0,0,3,212.98,55,0,0,0.03164,4.547347,
+TRIAL_0016,EVAL_TRIAL_0016,hi,आपातकालीन चिकित्सा सहायता की आवश्यकता है!,rayleigh,15.0,0.25,0.1,emergency,0.05,expired,0,1,0,0,3,0.25,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0017,EVAL_TRIAL_0017,hi,"नमस्ते, आप कैसे हैं?",awgn,15.0,0.0,0.0,normal,,delivered,1,0,0,0,3,157.23,32,0,0,0.031885,4.952009,
+TRIAL_0018,EVAL_TRIAL_0018,hi,"नमस्ते, आप कैसे हैं?",awgn,15.0,0.0,0.0,normal,0.05,expired,0,1,0,0,3,0.49,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0019,EVAL_TRIAL_0019,hi,"नमस्ते, आप कैसे हैं?",awgn,15.0,0.0,0.1,normal,,delivered,1,0,0,0,3,158.59,32,0,0,0.031015,4.952009,
+TRIAL_0020,EVAL_TRIAL_0020,hi,"नमस्ते, आप कैसे हैं?",awgn,15.0,0.0,0.1,normal,0.05,expired,0,1,0,0,3,0.54,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0021,EVAL_TRIAL_0021,hi,"नमस्ते, आप कैसे हैं?",awgn,15.0,0.25,0.0,normal,,delivered,1,0,0,1,3,215.01,64,32,0,0.031944,4.952009,
+TRIAL_0022,EVAL_TRIAL_0022,hi,"नमस्ते, आप कैसे हैं?",awgn,15.0,0.25,0.0,normal,0.05,expired,0,1,0,0,3,0.41,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0023,EVAL_TRIAL_0023,hi,"नमस्ते, आप कैसे हैं?",awgn,15.0,0.25,0.1,normal,,delivered,1,0,0,1,3,233.94,64,0,32,0.031159,4.952009,
+TRIAL_0024,EVAL_TRIAL_0024,hi,"नमस्ते, आप कैसे हैं?",awgn,15.0,0.25,0.1,normal,0.05,expired,0,1,0,0,3,0.55,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0025,EVAL_TRIAL_0025,hi,"नमस्ते, आप कैसे हैं?",rayleigh,15.0,0.0,0.0,normal,,delivered,1,0,0,0,3,156.85,32,0,0,0.030407,4.952009,
+TRIAL_0026,EVAL_TRIAL_0026,hi,"नमस्ते, आप कैसे हैं?",rayleigh,15.0,0.0,0.0,normal,0.05,expired,0,1,0,0,3,0.54,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0027,EVAL_TRIAL_0027,hi,"नमस्ते, आप कैसे हैं?",rayleigh,15.0,0.0,0.1,normal,,delivered,1,0,0,1,3,251.9,64,0,32,0.031838,4.952009,
+TRIAL_0028,EVAL_TRIAL_0028,hi,"नमस्ते, आप कैसे हैं?",rayleigh,15.0,0.0,0.1,normal,0.05,expired,0,1,0,0,3,0.26,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0029,EVAL_TRIAL_0029,hi,"नमस्ते, आप कैसे हैं?",rayleigh,15.0,0.25,0.0,normal,,delivered,1,0,0,0,3,138.97,32,0,0,0.031061,4.952009,
+TRIAL_0030,EVAL_TRIAL_0030,hi,"नमस्ते, आप कैसे हैं?",rayleigh,15.0,0.25,0.0,normal,0.05,expired,0,1,0,0,3,0.52,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0031,EVAL_TRIAL_0031,hi,"नमस्ते, आप कैसे हैं?",rayleigh,15.0,0.25,0.1,normal,,delivered,1,0,0,2,3,344.5,96,0,64,0.031185,4.952009,
+TRIAL_0032,EVAL_TRIAL_0032,hi,"नमस्ते, आप कैसे हैं?",rayleigh,15.0,0.25,0.1,normal,0.05,expired,0,1,0,0,3,0.52,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0033,EVAL_TRIAL_0033,te,అత్యవసర వైద్య సహాయం తక్షణమే కావాలి!,awgn,15.0,0.0,0.0,emergency,,delivered,1,0,0,0,3,264.94,73,0,0,0.031788,5.051685,
+TRIAL_0034,EVAL_TRIAL_0034,te,అత్యవసర వైద్య సహాయం తక్షణమే కావాలి!,awgn,15.0,0.0,0.0,emergency,0.05,expired,0,1,0,0,3,0.26,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0035,EVAL_TRIAL_0035,te,అత్యవసర వైద్య సహాయం తక్షణమే కావాలి!,awgn,15.0,0.0,0.1,emergency,,delivered,1,0,0,0,3,247.94,73,0,0,0.030828,5.051685,
+TRIAL_0036,EVAL_TRIAL_0036,te,అత్యవసర వైద్య సహాయం తక్షణమే కావాలి!,awgn,15.0,0.0,0.1,emergency,0.05,expired,0,1,0,0,3,0.22,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0037,EVAL_TRIAL_0037,te,అత్యవసర వైద్య సహాయం తక్షణమే కావాలి!,awgn,15.0,0.25,0.0,emergency,,delivered,1,0,0,0,3,191.58,73,0,0,0.031543,5.051685,
+TRIAL_0038,EVAL_TRIAL_0038,te,అత్యవసర వైద్య సహాయం తక్షణమే కావాలి!,awgn,15.0,0.25,0.0,emergency,0.05,expired,0,1,0,0,3,0.41,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0039,EVAL_TRIAL_0039,te,అత్యవసర వైద్య సహాయం తక్షణమే కావాలి!,awgn,15.0,0.25,0.1,emergency,,delivered,1,0,0,0,3,247.06,73,0,0,0.03123,5.051685,
+TRIAL_0040,EVAL_TRIAL_0040,te,అత్యవసర వైద్య సహాయం తక్షణమే కావాలి!,awgn,15.0,0.25,0.1,emergency,0.05,expired,0,1,0,0,3,0.49,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0041,EVAL_TRIAL_0041,te,అత్యవసర వైద్య సహాయం తక్షణమే కావాలి!,rayleigh,15.0,0.0,0.0,emergency,,delivered,1,0,0,0,3,236.61,73,0,0,0.031849,5.051685,
+TRIAL_0042,EVAL_TRIAL_0042,te,అత్యవసర వైద్య సహాయం తక్షణమే కావాలి!,rayleigh,15.0,0.0,0.0,emergency,0.05,expired,0,1,0,0,3,0.21,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0043,EVAL_TRIAL_0043,te,అత్యవసర వైద్య సహాయం తక్షణమే కావాలి!,rayleigh,15.0,0.0,0.1,emergency,,delivered,1,0,0,0,3,230.05,73,0,0,0.031826,5.051685,
+TRIAL_0044,EVAL_TRIAL_0044,te,అత్యవసర వైద్య సహాయం తక్షణమే కావాలి!,rayleigh,15.0,0.0,0.1,emergency,0.05,expired,0,1,0,0,3,0.36,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0045,EVAL_TRIAL_0045,te,అత్యవసర వైద్య సహాయం తక్షణమే కావాలి!,rayleigh,15.0,0.25,0.0,emergency,,delivered,1,0,0,0,3,223.89,73,0,0,0.03126,5.051685,
+TRIAL_0046,EVAL_TRIAL_0046,te,అత్యవసర వైద్య సహాయం తక్షణమే కావాలి!,rayleigh,15.0,0.25,0.0,emergency,0.05,expired,0,1,0,0,3,0.2,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0047,EVAL_TRIAL_0047,te,అత్యవసర వైద్య సహాయం తక్షణమే కావాలి!,rayleigh,15.0,0.25,0.1,emergency,,delivered,1,0,0,0,3,208.99,73,0,0,0.031645,5.051685,
+TRIAL_0048,EVAL_TRIAL_0048,te,అత్యవసర వైద్య సహాయం తక్షణమే కావాలి!,rayleigh,15.0,0.25,0.1,emergency,0.05,expired,0,1,0,0,3,0.55,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0049,EVAL_TRIAL_0049,te,"నమస్కారం, మీరు ఎలా ఉన్నారు?",awgn,15.0,0.0,0.0,normal,,delivered,1,0,0,0,3,206.22,42,0,0,0.031665,3.498683,
+TRIAL_0050,EVAL_TRIAL_0050,te,"నమస్కారం, మీరు ఎలా ఉన్నారు?",awgn,15.0,0.0,0.0,normal,0.05,expired,0,1,0,0,3,0.33,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0051,EVAL_TRIAL_0051,te,"నమస్కారం, మీరు ఎలా ఉన్నారు?",awgn,15.0,0.0,0.1,normal,,delivered,1,0,0,0,3,202.01,42,0,0,0.031608,3.498683,
+TRIAL_0052,EVAL_TRIAL_0052,te,"నమస్కారం, మీరు ఎలా ఉన్నారు?",awgn,15.0,0.0,0.1,normal,0.05,expired,0,1,0,0,3,0.26,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0053,EVAL_TRIAL_0053,te,"నమస్కారం, మీరు ఎలా ఉన్నారు?",awgn,15.0,0.25,0.0,normal,,delivered,1,0,0,0,3,129.3,42,0,0,0.032302,3.498683,
+TRIAL_0054,EVAL_TRIAL_0054,te,"నమస్కారం, మీరు ఎలా ఉన్నారు?",awgn,15.0,0.25,0.0,normal,0.05,expired,0,1,0,0,3,0.27,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0055,EVAL_TRIAL_0055,te,"నమస్కారం, మీరు ఎలా ఉన్నారు?",awgn,15.0,0.25,0.1,normal,,delivered,1,0,0,2,3,256.7,126,84,0,0.032248,3.498683,
+TRIAL_0056,EVAL_TRIAL_0056,te,"నమస్కారం, మీరు ఎలా ఉన్నారు?",awgn,15.0,0.25,0.1,normal,0.05,expired,0,1,0,0,3,0.4,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0057,EVAL_TRIAL_0057,te,"నమస్కారం, మీరు ఎలా ఉన్నారు?",rayleigh,15.0,0.0,0.0,normal,,delivered,1,0,0,0,3,132.33,42,0,0,0.032836,3.498683,
+TRIAL_0058,EVAL_TRIAL_0058,te,"నమస్కారం, మీరు ఎలా ఉన్నారు?",rayleigh,15.0,0.0,0.0,normal,0.05,expired,0,1,0,0,3,0.24,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0059,EVAL_TRIAL_0059,te,"నమస్కారం, మీరు ఎలా ఉన్నారు?",rayleigh,15.0,0.0,0.1,normal,,delivered,1,0,0,0,3,119.14,42,0,0,0.032777,3.498683,
+TRIAL_0060,EVAL_TRIAL_0060,te,"నమస్కారం, మీరు ఎలా ఉన్నారు?",rayleigh,15.0,0.0,0.1,normal,0.05,expired,0,1,0,0,3,0.23,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0061,EVAL_TRIAL_0061,te,"నమస్కారం, మీరు ఎలా ఉన్నారు?",rayleigh,15.0,0.25,0.0,normal,,delivered,1,0,0,2,3,198.32,126,84,0,0.031505,3.498683,
+TRIAL_0062,EVAL_TRIAL_0062,te,"నమస్కారం, మీరు ఎలా ఉన్నారు?",rayleigh,15.0,0.25,0.0,normal,0.05,expired,0,1,0,0,3,0.28,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0063,EVAL_TRIAL_0063,te,"నమస్కారం, మీరు ఎలా ఉన్నారు?",rayleigh,15.0,0.25,0.1,normal,,delivered,1,0,0,0,3,146.4,42,0,0,0.032539,3.498683,
+TRIAL_0064,EVAL_TRIAL_0064,te,"నమస్కారం, మీరు ఎలా ఉన్నారు?",rayleigh,15.0,0.25,0.1,normal,0.05,expired,0,1,0,0,3,0.38,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0065,EVAL_TRIAL_0065,ta,அவசர மருத்துவ உதவி தேவைப்படுகிறது!,awgn,15.0,0.0,0.0,emergency,,delivered,1,0,0,0,3,201.53,46,0,0,0.030587,4.445369,
+TRIAL_0066,EVAL_TRIAL_0066,ta,அவசர மருத்துவ உதவி தேவைப்படுகிறது!,awgn,15.0,0.0,0.0,emergency,0.05,expired,0,1,0,0,3,0.29,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0067,EVAL_TRIAL_0067,ta,அவசர மருத்துவ உதவி தேவைப்படுகிறது!,awgn,15.0,0.0,0.1,emergency,,delivered,1,0,0,0,3,157.84,46,0,0,0.031106,4.445369,
+TRIAL_0068,EVAL_TRIAL_0068,ta,அவசர மருத்துவ உதவி தேவைப்படுகிறது!,awgn,15.0,0.0,0.1,emergency,0.05,expired,0,1,0,0,3,0.61,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0069,EVAL_TRIAL_0069,ta,அவசர மருத்துவ உதவி தேவைப்படுகிறது!,awgn,15.0,0.25,0.0,emergency,,delivered,1,0,0,0,3,199.97,46,0,0,0.031599,4.445369,
+TRIAL_0070,EVAL_TRIAL_0070,ta,அவசர மருத்துவ உதவி தேவைப்படுகிறது!,awgn,15.0,0.25,0.0,emergency,0.05,expired,0,1,0,0,3,0.25,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0071,EVAL_TRIAL_0071,ta,அவசர மருத்துவ உதவி தேவைப்படுகிறது!,awgn,15.0,0.25,0.1,emergency,,delivered,1,0,0,0,3,170.45,46,0,0,0.031665,4.445369,
+TRIAL_0072,EVAL_TRIAL_0072,ta,அவசர மருத்துவ உதவி தேவைப்படுகிறது!,awgn,15.0,0.25,0.1,emergency,0.05,expired,0,1,0,0,3,0.25,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0073,EVAL_TRIAL_0073,ta,அவசர மருத்துவ உதவி தேவைப்படுகிறது!,rayleigh,15.0,0.0,0.0,emergency,,delivered,1,0,0,0,3,108.06,46,0,0,0.032495,4.445369,
+TRIAL_0074,EVAL_TRIAL_0074,ta,அவசர மருத்துவ உதவி தேவைப்படுகிறது!,rayleigh,15.0,0.0,0.0,emergency,0.05,expired,0,1,0,0,3,0.23,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0075,EVAL_TRIAL_0075,ta,அவசர மருத்துவ உதவி தேவைப்படுகிறது!,rayleigh,15.0,0.0,0.1,emergency,,delivered,1,0,0,0,3,111.29,46,0,0,0.032018,4.445369,
+TRIAL_0076,EVAL_TRIAL_0076,ta,அவசர மருத்துவ உதவி தேவைப்படுகிறது!,rayleigh,15.0,0.0,0.1,emergency,0.05,expired,0,1,0,0,3,0.54,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0077,EVAL_TRIAL_0077,ta,அவசர மருத்துவ உதவி தேவைப்படுகிறது!,rayleigh,15.0,0.25,0.0,emergency,,delivered,1,0,0,0,3,179.22,46,0,0,0.032075,4.445369,
+TRIAL_0078,EVAL_TRIAL_0078,ta,அவசர மருத்துவ உதவி தேவைப்படுகிறது!,rayleigh,15.0,0.25,0.0,emergency,0.05,expired,0,1,0,0,3,0.38,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0079,EVAL_TRIAL_0079,ta,அவசர மருத்துவ உதவி தேவைப்படுகிறது!,rayleigh,15.0,0.25,0.1,emergency,,delivered,1,0,0,0,3,179.47,46,0,0,0.031778,4.445369,
+TRIAL_0080,EVAL_TRIAL_0080,ta,அவசர மருத்துவ உதவி தேவைப்படுகிறது!,rayleigh,15.0,0.25,0.1,emergency,0.05,expired,0,1,0,0,3,0.43,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0081,EVAL_TRIAL_0081,ta,"வணக்கம், நீங்கள் எப்படி இருக்கிறீர்கள்?",awgn,15.0,0.0,0.0,normal,,delivered,1,0,0,0,3,193.13,45,0,0,0.032116,4.666694,
+TRIAL_0082,EVAL_TRIAL_0082,ta,"வணக்கம், நீங்கள் எப்படி இருக்கிறீர்கள்?",awgn,15.0,0.0,0.0,normal,0.05,expired,0,1,0,0,3,0.36,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0083,EVAL_TRIAL_0083,ta,"வணக்கம், நீங்கள் எப்படி இருக்கிறீர்கள்?",awgn,15.0,0.0,0.1,normal,,delivered,1,0,0,0,3,149.15,45,0,0,0.030946,4.666694,
+TRIAL_0084,EVAL_TRIAL_0084,ta,"வணக்கம், நீங்கள் எப்படி இருக்கிறீர்கள்?",awgn,15.0,0.0,0.1,normal,0.05,expired,0,1,0,0,3,0.3,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0085,EVAL_TRIAL_0085,ta,"வணக்கம், நீங்கள் எப்படி இருக்கிறீர்கள்?",awgn,15.0,0.25,0.0,normal,,delivered,1,0,0,0,3,185.8,45,0,0,0.031516,4.666694,
+TRIAL_0086,EVAL_TRIAL_0086,ta,"வணக்கம், நீங்கள் எப்படி இருக்கிறீர்கள்?",awgn,15.0,0.25,0.0,normal,0.05,expired,0,1,0,0,3,0.49,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0087,EVAL_TRIAL_0087,ta,"வணக்கம், நீங்கள் எப்படி இருக்கிறீர்கள்?",awgn,15.0,0.25,0.1,normal,,delivered,1,0,0,1,3,252.09,90,45,0,0.032104,4.666694,
+TRIAL_0088,EVAL_TRIAL_0088,ta,"வணக்கம், நீங்கள் எப்படி இருக்கிறீர்கள்?",awgn,15.0,0.25,0.1,normal,0.05,expired,0,1,0,0,3,0.32,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0089,EVAL_TRIAL_0089,ta,"வணக்கம், நீங்கள் எப்படி இருக்கிறீர்கள்?",rayleigh,15.0,0.0,0.0,normal,,delivered,1,0,0,0,3,195.25,45,0,0,0.030991,4.666694,
+TRIAL_0090,EVAL_TRIAL_0090,ta,"வணக்கம், நீங்கள் எப்படி இருக்கிறீர்கள்?",rayleigh,15.0,0.0,0.0,normal,0.05,expired,0,1,0,0,3,0.46,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0091,EVAL_TRIAL_0091,ta,"வணக்கம், நீங்கள் எப்படி இருக்கிறீர்கள்?",rayleigh,15.0,0.0,0.1,normal,,delivered,1,0,0,0,3,205.75,45,0,0,0.032362,4.666694,
+TRIAL_0092,EVAL_TRIAL_0092,ta,"வணக்கம், நீங்கள் எப்படி இருக்கிறீர்கள்?",rayleigh,15.0,0.0,0.1,normal,0.05,expired,0,1,0,0,3,0.32,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0093,EVAL_TRIAL_0093,ta,"வணக்கம், நீங்கள் எப்படி இருக்கிறீர்கள்?",rayleigh,15.0,0.25,0.0,normal,,delivered,1,0,0,0,3,204.11,45,0,0,0.031676,4.666694,
+TRIAL_0094,EVAL_TRIAL_0094,ta,"வணக்கம், நீங்கள் எப்படி இருக்கிறீர்கள்?",rayleigh,15.0,0.25,0.0,normal,0.05,expired,0,1,0,0,3,0.51,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0095,EVAL_TRIAL_0095,ta,"வணக்கம், நீங்கள் எப்படி இருக்கிறீர்கள்?",rayleigh,15.0,0.25,0.1,normal,,delivered,1,0,0,1,3,272.76,90,45,0,0.031632,4.666694,
+TRIAL_0096,EVAL_TRIAL_0096,ta,"வணக்கம், நீங்கள் எப்படி இருக்கிறீர்கள்?",rayleigh,15.0,0.25,0.1,normal,0.05,expired,0,1,0,0,3,0.53,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0097,EVAL_TRIAL_0097,bn,জরুরি চিকিৎসা সহায়তা প্রয়োজন!,awgn,15.0,0.0,0.0,emergency,,delivered,1,0,0,0,3,122.24,42,0,0,0.03087,3.702925,
+TRIAL_0098,EVAL_TRIAL_0098,bn,জরুরি চিকিৎসা সহায়তা প্রয়োজন!,awgn,15.0,0.0,0.0,emergency,0.05,expired,0,1,0,0,3,0.27,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0099,EVAL_TRIAL_0099,bn,জরুরি চিকিৎসা সহায়তা প্রয়োজন!,awgn,15.0,0.0,0.1,emergency,,delivered,1,0,0,0,3,88.45,42,0,0,0.032794,3.702925,
+TRIAL_0100,EVAL_TRIAL_0100,bn,জরুরি চিকিৎসা সহায়তা প্রয়োজন!,awgn,15.0,0.0,0.1,emergency,0.05,expired,0,1,0,0,3,0.25,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0101,EVAL_TRIAL_0101,bn,জরুরি চিকিৎসা সহায়তা প্রয়োজন!,awgn,15.0,0.25,0.0,emergency,,delivered,1,0,0,1,3,225.76,84,42,0,0.031544,3.702925,
+TRIAL_0102,EVAL_TRIAL_0102,bn,জরুরি চিকিৎসা সহায়তা প্রয়োজন!,awgn,15.0,0.25,0.0,emergency,0.05,expired,0,1,0,0,3,0.48,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0103,EVAL_TRIAL_0103,bn,জরুরি চিকিৎসা সহায়তা প্রয়োজন!,awgn,15.0,0.25,0.1,emergency,,delivered,1,0,0,1,3,235.21,84,42,0,0.031375,3.702925,
+TRIAL_0104,EVAL_TRIAL_0104,bn,জরুরি চিকিৎসা সহায়তা প্রয়োজন!,awgn,15.0,0.25,0.1,emergency,0.05,expired,0,1,0,0,3,0.28,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0105,EVAL_TRIAL_0105,bn,জরুরি চিকিৎসা সহায়তা প্রয়োজন!,rayleigh,15.0,0.0,0.0,emergency,,delivered,1,0,0,0,3,168.64,42,0,0,0.032016,3.702925,
+TRIAL_0106,EVAL_TRIAL_0106,bn,জরুরি চিকিৎসা সহায়তা প্রয়োজন!,rayleigh,15.0,0.0,0.0,emergency,0.05,expired,0,1,0,0,3,0.37,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0107,EVAL_TRIAL_0107,bn,জরুরি চিকিৎসা সহায়তা প্রয়োজন!,rayleigh,15.0,0.0,0.1,emergency,,delivered,1,0,0,0,3,157.23,42,0,0,0.03143,3.702925,
+TRIAL_0108,EVAL_TRIAL_0108,bn,জরুরি চিকিৎসা সহায়তা প্রয়োজন!,rayleigh,15.0,0.0,0.1,emergency,0.05,expired,0,1,0,0,3,0.37,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0109,EVAL_TRIAL_0109,bn,জরুরি চিকিৎসা সহায়তা প্রয়োজন!,rayleigh,15.0,0.25,0.0,emergency,,delivered,1,0,0,1,3,214.05,84,42,0,0.031015,3.702925,
+TRIAL_0110,EVAL_TRIAL_0110,bn,জরুরি চিকিৎসা সহায়তা প্রয়োজন!,rayleigh,15.0,0.25,0.0,emergency,0.05,expired,0,1,0,0,3,0.41,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0111,EVAL_TRIAL_0111,bn,জরুরি চিকিৎসা সহায়তা প্রয়োজন!,rayleigh,15.0,0.25,0.1,emergency,,delivered,1,0,0,0,3,161.26,42,0,0,0.030953,3.702925,
+TRIAL_0112,EVAL_TRIAL_0112,bn,জরুরি চিকিৎসা সহায়তা প্রয়োজন!,rayleigh,15.0,0.25,0.1,emergency,0.05,expired,0,1,0,0,3,0.37,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0113,EVAL_TRIAL_0113,bn,"নমস্কার, আপনি কেমন আছেন?",awgn,15.0,0.0,0.0,normal,,delivered,1,0,0,0,3,201.68,45,0,0,0.031829,4.349475,
+TRIAL_0114,EVAL_TRIAL_0114,bn,"নমস্কার, আপনি কেমন আছেন?",awgn,15.0,0.0,0.0,normal,0.05,expired,0,1,0,0,3,0.26,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0115,EVAL_TRIAL_0115,bn,"নমস্কার, আপনি কেমন আছেন?",awgn,15.0,0.0,0.1,normal,,delivered,1,0,0,0,3,189.85,45,0,0,0.032396,4.349475,
+TRIAL_0116,EVAL_TRIAL_0116,bn,"নমস্কার, আপনি কেমন আছেন?",awgn,15.0,0.0,0.1,normal,0.05,expired,0,1,0,0,3,0.44,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0117,EVAL_TRIAL_0117,bn,"নমস্কার, আপনি কেমন আছেন?",awgn,15.0,0.25,0.0,normal,,delivered,1,0,0,0,3,199.39,45,0,0,0.031283,4.349475,
+TRIAL_0118,EVAL_TRIAL_0118,bn,"নমস্কার, আপনি কেমন আছেন?",awgn,15.0,0.25,0.0,normal,0.05,expired,0,1,0,0,3,0.26,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0119,EVAL_TRIAL_0119,bn,"নমস্কার, আপনি কেমন আছেন?",awgn,15.0,0.25,0.1,normal,,delivered,1,0,0,0,3,120.7,45,0,0,0.031341,4.349475,
+TRIAL_0120,EVAL_TRIAL_0120,bn,"নমস্কার, আপনি কেমন আছেন?",awgn,15.0,0.25,0.1,normal,0.05,expired,0,1,0,0,3,0.43,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0121,EVAL_TRIAL_0121,bn,"নমস্কার, আপনি কেমন আছেন?",rayleigh,15.0,0.0,0.0,normal,,delivered,1,0,0,0,3,156.19,45,0,0,0.031202,4.349475,
+TRIAL_0122,EVAL_TRIAL_0122,bn,"নমস্কার, আপনি কেমন আছেন?",rayleigh,15.0,0.0,0.0,normal,0.05,expired,0,1,0,0,3,0.24,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0123,EVAL_TRIAL_0123,bn,"নমস্কার, আপনি কেমন আছেন?",rayleigh,15.0,0.0,0.1,normal,,delivered,1,0,0,0,3,165.08,45,0,0,0.030871,4.349475,
+TRIAL_0124,EVAL_TRIAL_0124,bn,"নমস্কার, আপনি কেমন আছেন?",rayleigh,15.0,0.0,0.1,normal,0.05,expired,0,1,0,0,3,0.38,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0125,EVAL_TRIAL_0125,bn,"নমস্কার, আপনি কেমন আছেন?",rayleigh,15.0,0.25,0.0,normal,,delivered,1,0,0,1,3,228.52,90,45,0,0.032223,4.349475,
+TRIAL_0126,EVAL_TRIAL_0126,bn,"নমস্কার, আপনি কেমন আছেন?",rayleigh,15.0,0.25,0.0,normal,0.05,expired,0,1,0,0,3,0.31,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0127,EVAL_TRIAL_0127,bn,"নমস্কার, আপনি কেমন আছেন?",rayleigh,15.0,0.25,0.1,normal,,delivered,1,0,0,1,3,259.23,90,0,45,0.03133,4.349475,
+TRIAL_0128,EVAL_TRIAL_0128,bn,"নমস্কার, আপনি কেমন আছেন?",rayleigh,15.0,0.25,0.1,normal,0.05,expired,0,1,0,0,3,0.33,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0129,EVAL_TRIAL_0129,mr,तातडीची वैद्यकीय मदत आवश्यक आहे!,awgn,15.0,0.0,0.0,emergency,,delivered,1,0,0,0,3,175.68,47,0,0,0.032127,4.545471,
+TRIAL_0130,EVAL_TRIAL_0130,mr,तातडीची वैद्यकीय मदत आवश्यक आहे!,awgn,15.0,0.0,0.0,emergency,0.05,expired,0,1,0,0,3,0.32,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0131,EVAL_TRIAL_0131,mr,तातडीची वैद्यकीय मदत आवश्यक आहे!,awgn,15.0,0.0,0.1,emergency,,delivered,1,0,0,1,3,266.18,94,0,47,0.031749,4.545471,
+TRIAL_0132,EVAL_TRIAL_0132,mr,तातडीची वैद्यकीय मदत आवश्यक आहे!,awgn,15.0,0.0,0.1,emergency,0.05,expired,0,1,0,0,3,0.5,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0133,EVAL_TRIAL_0133,mr,तातडीची वैद्यकीय मदत आवश्यक आहे!,awgn,15.0,0.25,0.0,emergency,,delivered,1,0,0,2,3,284.09,141,94,0,0.031395,4.545471,
+TRIAL_0134,EVAL_TRIAL_0134,mr,तातडीची वैद्यकीय मदत आवश्यक आहे!,awgn,15.0,0.25,0.0,emergency,0.05,expired,0,1,0,0,3,0.41,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0135,EVAL_TRIAL_0135,mr,तातडीची वैद्यकीय मदत आवश्यक आहे!,awgn,15.0,0.25,0.1,emergency,,delivered,1,0,0,0,3,183.17,47,0,0,0.030732,4.545471,
+TRIAL_0136,EVAL_TRIAL_0136,mr,तातडीची वैद्यकीय मदत आवश्यक आहे!,awgn,15.0,0.25,0.1,emergency,0.05,expired,0,1,0,0,3,0.38,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0137,EVAL_TRIAL_0137,mr,तातडीची वैद्यकीय मदत आवश्यक आहे!,rayleigh,15.0,0.0,0.0,emergency,,delivered,1,0,0,0,3,154.27,47,0,0,0.032076,4.545471,
+TRIAL_0138,EVAL_TRIAL_0138,mr,तातडीची वैद्यकीय मदत आवश्यक आहे!,rayleigh,15.0,0.0,0.0,emergency,0.05,expired,0,1,0,0,3,0.25,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0139,EVAL_TRIAL_0139,mr,तातडीची वैद्यकीय मदत आवश्यक आहे!,rayleigh,15.0,0.0,0.1,emergency,,delivered,1,0,0,0,3,117.16,47,0,0,0.032077,4.545471,
+TRIAL_0140,EVAL_TRIAL_0140,mr,तातडीची वैद्यकीय मदत आवश्यक आहे!,rayleigh,15.0,0.0,0.1,emergency,0.05,expired,0,1,0,0,3,0.23,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0141,EVAL_TRIAL_0141,mr,तातडीची वैद्यकीय मदत आवश्यक आहे!,rayleigh,15.0,0.25,0.0,emergency,,delivered,1,0,0,0,3,162.48,47,0,0,0.030952,4.545471,
+TRIAL_0142,EVAL_TRIAL_0142,mr,तातडीची वैद्यकीय मदत आवश्यक आहे!,rayleigh,15.0,0.25,0.0,emergency,0.05,expired,0,1,0,0,3,0.41,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0143,EVAL_TRIAL_0143,mr,तातडीची वैद्यकीय मदत आवश्यक आहे!,rayleigh,15.0,0.25,0.1,emergency,,delivered,1,0,0,1,3,274.2,94,47,0,0.031375,4.545471,
+TRIAL_0144,EVAL_TRIAL_0144,mr,तातडीची वैद्यकीय मदत आवश्यक आहे!,rayleigh,15.0,0.25,0.1,emergency,0.05,expired,0,1,0,0,3,0.43,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0145,EVAL_TRIAL_0145,mr,"नमस्कार, तुम्ही कसे आहात?",awgn,15.0,0.0,0.0,normal,,delivered,1,0,0,0,3,141.22,33,0,0,0.031244,5.716273,
+TRIAL_0146,EVAL_TRIAL_0146,mr,"नमस्कार, तुम्ही कसे आहात?",awgn,15.0,0.0,0.0,normal,0.05,expired,0,1,0,0,3,0.51,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0147,EVAL_TRIAL_0147,mr,"नमस्कार, तुम्ही कसे आहात?",awgn,15.0,0.0,0.1,normal,,delivered,1,0,0,0,3,148.08,33,0,0,0.032287,5.716273,
+TRIAL_0148,EVAL_TRIAL_0148,mr,"नमस्कार, तुम्ही कसे आहात?",awgn,15.0,0.0,0.1,normal,0.05,expired,0,1,0,0,3,0.44,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0149,EVAL_TRIAL_0149,mr,"नमस्कार, तुम्ही कसे आहात?",awgn,15.0,0.25,0.0,normal,,delivered,1,0,0,1,3,207.71,66,33,0,0.030476,5.716273,
+TRIAL_0150,EVAL_TRIAL_0150,mr,"नमस्कार, तुम्ही कसे आहात?",awgn,15.0,0.25,0.0,normal,0.05,expired,0,1,0,0,3,0.22,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0151,EVAL_TRIAL_0151,mr,"नमस्कार, तुम्ही कसे आहात?",awgn,15.0,0.25,0.1,normal,,delivered,1,0,0,1,3,222.61,66,0,33,0.031263,5.716273,
+TRIAL_0152,EVAL_TRIAL_0152,mr,"नमस्कार, तुम्ही कसे आहात?",awgn,15.0,0.25,0.1,normal,0.05,expired,0,1,0,0,3,0.22,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0153,EVAL_TRIAL_0153,mr,"नमस्कार, तुम्ही कसे आहात?",rayleigh,15.0,0.0,0.0,normal,,delivered,1,0,0,0,3,149.55,33,0,0,0.031127,5.716273,
+TRIAL_0154,EVAL_TRIAL_0154,mr,"नमस्कार, तुम्ही कसे आहात?",rayleigh,15.0,0.0,0.0,normal,0.05,expired,0,1,0,0,3,0.42,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0155,EVAL_TRIAL_0155,mr,"नमस्कार, तुम्ही कसे आहात?",rayleigh,15.0,0.0,0.1,normal,,delivered,1,0,0,1,3,241.29,66,0,33,0.031299,5.716273,
+TRIAL_0156,EVAL_TRIAL_0156,mr,"नमस्कार, तुम्ही कसे आहात?",rayleigh,15.0,0.0,0.1,normal,0.05,expired,0,1,0,0,3,0.33,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0157,EVAL_TRIAL_0157,mr,"नमस्कार, तुम्ही कसे आहात?",rayleigh,15.0,0.25,0.0,normal,,delivered,1,0,0,0,3,134.59,33,0,0,0.031269,5.716273,
+TRIAL_0158,EVAL_TRIAL_0158,mr,"नमस्कार, तुम्ही कसे आहात?",rayleigh,15.0,0.25,0.0,normal,0.05,expired,0,1,0,0,3,0.41,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0159,EVAL_TRIAL_0159,mr,"नमस्कार, तुम्ही कसे आहात?",rayleigh,15.0,0.25,0.1,normal,,delivered,1,0,0,0,3,146.28,33,0,0,0.032679,5.716273,
+TRIAL_0160,EVAL_TRIAL_0160,mr,"नमस्कार, तुम्ही कसे आहात?",rayleigh,15.0,0.25,0.1,normal,0.05,expired,0,1,0,0,3,0.6,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0161,EVAL_TRIAL_0161,kn,ತುರ್ತು ವೈದ್ಯಕೀಯ ನೆರವು ಅಗತ್ಯವಿದೆ!,awgn,15.0,0.0,0.0,emergency,,delivered,1,0,0,0,3,247.18,65,0,0,0.03131,4.61658,
+TRIAL_0162,EVAL_TRIAL_0162,kn,ತುರ್ತು ವೈದ್ಯಕೀಯ ನೆರವು ಅಗತ್ಯವಿದೆ!,awgn,15.0,0.0,0.0,emergency,0.05,expired,0,1,0,0,3,0.3,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0163,EVAL_TRIAL_0163,kn,ತುರ್ತು ವೈದ್ಯಕೀಯ ನೆರವು ಅಗತ್ಯವಿದೆ!,awgn,15.0,0.0,0.1,emergency,,delivered,1,0,0,0,3,135.87,65,0,0,0.031578,4.61658,
+TRIAL_0164,EVAL_TRIAL_0164,kn,ತುರ್ತು ವೈದ್ಯಕೀಯ ನೆರವು ಅಗತ್ಯವಿದೆ!,awgn,15.0,0.0,0.1,emergency,0.05,expired,0,1,0,0,3,0.28,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0165,EVAL_TRIAL_0165,kn,ತುರ್ತು ವೈದ್ಯಕೀಯ ನೆರವು ಅಗತ್ಯವಿದೆ!,awgn,15.0,0.25,0.0,emergency,,delivered,1,0,0,0,3,127.21,65,0,0,0.031775,4.61658,
+TRIAL_0166,EVAL_TRIAL_0166,kn,ತುರ್ತು ವೈದ್ಯಕೀಯ ನೆರವು ಅಗತ್ಯವಿದೆ!,awgn,15.0,0.25,0.0,emergency,0.05,expired,0,1,0,0,3,0.25,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0167,EVAL_TRIAL_0167,kn,ತುರ್ತು ವೈದ್ಯಕೀಯ ನೆರವು ಅಗತ್ಯವಿದೆ!,awgn,15.0,0.25,0.1,emergency,,delivered,1,0,0,0,3,172.18,65,0,0,0.031427,4.61658,
+TRIAL_0168,EVAL_TRIAL_0168,kn,ತುರ್ತು ವೈದ್ಯಕೀಯ ನೆರವು ಅಗತ್ಯವಿದೆ!,awgn,15.0,0.25,0.1,emergency,0.05,expired,0,1,0,0,3,0.55,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0169,EVAL_TRIAL_0169,kn,ತುರ್ತು ವೈದ್ಯಕೀಯ ನೆರವು ಅಗತ್ಯವಿದೆ!,rayleigh,15.0,0.0,0.0,emergency,,delivered,1,0,0,0,3,234.62,65,0,0,0.0313,4.61658,
+TRIAL_0170,EVAL_TRIAL_0170,kn,ತುರ್ತು ವೈದ್ಯಕೀಯ ನೆರವು ಅಗತ್ಯವಿದೆ!,rayleigh,15.0,0.0,0.0,emergency,0.05,expired,0,1,0,0,3,0.25,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0171,EVAL_TRIAL_0171,kn,ತುರ್ತು ವೈದ್ಯಕೀಯ ನೆರವು ಅಗತ್ಯವಿದೆ!,rayleigh,15.0,0.0,0.1,emergency,,delivered,1,0,0,1,3,320.99,130,0,65,0.032211,4.61658,
+TRIAL_0172,EVAL_TRIAL_0172,kn,ತುರ್ತು ವೈದ್ಯಕೀಯ ನೆರವು ಅಗತ್ಯವಿದೆ!,rayleigh,15.0,0.0,0.1,emergency,0.05,expired,0,1,0,0,3,0.37,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0173,EVAL_TRIAL_0173,kn,ತುರ್ತು ವೈದ್ಯಕೀಯ ನೆರವು ಅಗತ್ಯವಿದೆ!,rayleigh,15.0,0.25,0.0,emergency,,delivered,1,0,0,0,3,193.88,65,0,0,0.031663,4.61658,
+TRIAL_0174,EVAL_TRIAL_0174,kn,ತುರ್ತು ವೈದ್ಯಕೀಯ ನೆರವು ಅಗತ್ಯವಿದೆ!,rayleigh,15.0,0.25,0.0,emergency,0.05,expired,0,1,0,0,3,0.32,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0175,EVAL_TRIAL_0175,kn,ತುರ್ತು ವೈದ್ಯಕೀಯ ನೆರವು ಅಗತ್ಯವಿದೆ!,rayleigh,15.0,0.25,0.1,emergency,,delivered,1,0,0,0,3,211.89,65,0,0,0.031874,4.61658,
+TRIAL_0176,EVAL_TRIAL_0176,kn,ತುರ್ತು ವೈದ್ಯಕೀಯ ನೆರವು ಅಗತ್ಯವಿದೆ!,rayleigh,15.0,0.25,0.1,emergency,0.05,expired,0,1,0,0,3,0.21,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0177,EVAL_TRIAL_0177,kn,"ನಮಸ್ಕಾರ, ನೀವು ಹೇಗಿದ್ದೀರಿ?",awgn,15.0,0.0,0.0,normal,,delivered,1,0,0,0,3,240.6,55,0,0,0.031639,4.02212,
+TRIAL_0178,EVAL_TRIAL_0178,kn,"ನಮಸ್ಕಾರ, ನೀವು ಹೇಗಿದ್ದೀರಿ?",awgn,15.0,0.0,0.0,normal,0.05,expired,0,1,0,0,3,0.58,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0179,EVAL_TRIAL_0179,kn,"ನಮಸ್ಕಾರ, ನೀವು ಹೇಗಿದ್ದೀರಿ?",awgn,15.0,0.0,0.1,normal,,delivered,1,0,0,0,3,230.57,55,0,0,0.032291,4.02212,
+TRIAL_0180,EVAL_TRIAL_0180,kn,"ನಮಸ್ಕಾರ, ನೀವು ಹೇಗಿದ್ದೀರಿ?",awgn,15.0,0.0,0.1,normal,0.05,expired,0,1,0,0,3,0.29,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0181,EVAL_TRIAL_0181,kn,"ನಮಸ್ಕಾರ, ನೀವು ಹೇಗಿದ್ದೀರಿ?",awgn,15.0,0.25,0.0,normal,,delivered,1,0,0,0,3,219.49,55,0,0,0.031261,4.02212,
+TRIAL_0182,EVAL_TRIAL_0182,kn,"ನಮಸ್ಕಾರ, ನೀವು ಹೇಗಿದ್ದೀರಿ?",awgn,15.0,0.25,0.0,normal,0.05,expired,0,1,0,0,3,0.31,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0183,EVAL_TRIAL_0183,kn,"ನಮಸ್ಕಾರ, ನೀವು ಹೇಗಿದ್ದೀರಿ?",awgn,15.0,0.25,0.1,normal,,delivered,1,0,0,1,3,299.5,110,0,55,0.032293,4.02212,
+TRIAL_0184,EVAL_TRIAL_0184,kn,"ನಮಸ್ಕಾರ, ನೀವು ಹೇಗಿದ್ದೀರಿ?",awgn,15.0,0.25,0.1,normal,0.05,expired,0,1,0,0,3,0.37,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0185,EVAL_TRIAL_0185,kn,"ನಮಸ್ಕಾರ, ನೀವು ಹೇಗಿದ್ದೀರಿ?",rayleigh,15.0,0.0,0.0,normal,,delivered,1,0,0,0,3,157.72,55,0,0,0.031274,4.02212,
+TRIAL_0186,EVAL_TRIAL_0186,kn,"ನಮಸ್ಕಾರ, ನೀವು ಹೇಗಿದ್ದೀರಿ?",rayleigh,15.0,0.0,0.0,normal,0.05,expired,0,1,0,0,3,0.24,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0187,EVAL_TRIAL_0187,kn,"ನಮಸ್ಕಾರ, ನೀವು ಹೇಗಿದ್ದೀರಿ?",rayleigh,15.0,0.0,0.1,normal,,delivered,1,0,0,0,3,174.45,55,0,0,0.031522,4.02212,
+TRIAL_0188,EVAL_TRIAL_0188,kn,"ನಮಸ್ಕಾರ, ನೀವು ಹೇಗಿದ್ದೀರಿ?",rayleigh,15.0,0.0,0.1,normal,0.05,expired,0,1,0,0,3,0.24,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0189,EVAL_TRIAL_0189,kn,"ನಮಸ್ಕಾರ, ನೀವು ಹೇಗಿದ್ದೀರಿ?",rayleigh,15.0,0.25,0.0,normal,,delivered,1,0,0,0,3,163.7,55,0,0,0.03183,4.02212,
+TRIAL_0190,EVAL_TRIAL_0190,kn,"ನಮಸ್ಕಾರ, ನೀವು ಹೇಗಿದ್ದೀರಿ?",rayleigh,15.0,0.25,0.0,normal,0.05,expired,0,1,0,0,3,0.27,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0191,EVAL_TRIAL_0191,kn,"ನಮಸ್ಕಾರ, ನೀವು ಹೇಗಿದ್ದೀರಿ?",rayleigh,15.0,0.25,0.1,normal,,delivered,1,0,0,0,3,134.88,55,0,0,0.031824,4.02212,
+TRIAL_0192,EVAL_TRIAL_0192,kn,"ನಮಸ್ಕಾರ, ನೀವು ಹೇಗಿದ್ದೀರಿ?",rayleigh,15.0,0.25,0.1,normal,0.05,expired,0,1,0,0,3,0.31,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0193,EVAL_TRIAL_0193,ml,അടിയന്തര വൈദ്യസഹായം ആവശ്യമാണ്!,awgn,15.0,0.0,0.0,emergency,,delivered,1,0,0,0,3,164.08,41,0,0,0.031288,3.023973,
+TRIAL_0194,EVAL_TRIAL_0194,ml,അടിയന്തര വൈദ്യസഹായം ആവശ്യമാണ്!,awgn,15.0,0.0,0.0,emergency,0.05,expired,0,1,0,0,3,0.29,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0195,EVAL_TRIAL_0195,ml,അടിയന്തര വൈദ്യസഹായം ആവശ്യമാണ്!,awgn,15.0,0.0,0.1,emergency,,delivered,1,0,0,0,3,115.41,41,0,0,0.031387,3.023973,
+TRIAL_0196,EVAL_TRIAL_0196,ml,അടിയന്തര വൈദ്യസഹായം ആവശ്യമാണ്!,awgn,15.0,0.0,0.1,emergency,0.05,expired,0,1,0,0,3,0.32,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0197,EVAL_TRIAL_0197,ml,അടിയന്തര വൈദ്യസഹായം ആവശ്യമാണ്!,awgn,15.0,0.25,0.0,emergency,,delivered,1,0,0,0,3,138.11,41,0,0,0.032542,3.023973,
+TRIAL_0198,EVAL_TRIAL_0198,ml,അടിയന്തര വൈദ്യസഹായം ആവശ്യമാണ്!,awgn,15.0,0.25,0.0,emergency,0.05,expired,0,1,0,0,3,0.59,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0199,EVAL_TRIAL_0199,ml,അടിയന്തര വൈദ്യസഹായം ആവശ്യമാണ്!,awgn,15.0,0.25,0.1,emergency,,delivered,1,0,0,0,3,136.91,41,0,0,0.031582,3.023973,
+TRIAL_0200,EVAL_TRIAL_0200,ml,അടിയന്തര വൈദ്യസഹായം ആവശ്യമാണ്!,awgn,15.0,0.25,0.1,emergency,0.05,expired,0,1,0,0,3,0.31,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0201,EVAL_TRIAL_0201,ml,അടിയന്തര വൈദ്യസഹായം ആവശ്യമാണ്!,rayleigh,15.0,0.0,0.0,emergency,,delivered,1,0,0,0,3,130.79,41,0,0,0.031552,3.023973,
+TRIAL_0202,EVAL_TRIAL_0202,ml,അടിയന്തര വൈദ്യസഹായം ആവശ്യമാണ്!,rayleigh,15.0,0.0,0.0,emergency,0.05,expired,0,1,0,0,3,0.37,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0203,EVAL_TRIAL_0203,ml,അടിയന്തര വൈദ്യസഹായം ആവശ്യമാണ്!,rayleigh,15.0,0.0,0.1,emergency,,delivered,1,0,0,0,3,167.67,41,0,0,0.033103,3.023973,
+TRIAL_0204,EVAL_TRIAL_0204,ml,അടിയന്തര വൈദ്യസഹായം ആവശ്യമാണ്!,rayleigh,15.0,0.0,0.1,emergency,0.05,expired,0,1,0,0,3,0.46,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0205,EVAL_TRIAL_0205,ml,അടിയന്തര വൈദ്യസഹായം ആവശ്യമാണ്!,rayleigh,15.0,0.25,0.0,emergency,,delivered,1,0,0,0,3,152.78,41,0,0,0.031367,3.023973,
+TRIAL_0206,EVAL_TRIAL_0206,ml,അടിയന്തര വൈദ്യസഹായം ആവശ്യമാണ്!,rayleigh,15.0,0.25,0.0,emergency,0.05,expired,0,1,0,0,3,0.26,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0207,EVAL_TRIAL_0207,ml,അടിയന്തര വൈദ്യസഹായം ആവശ്യമാണ്!,rayleigh,15.0,0.25,0.1,emergency,,delivered,1,0,0,0,3,101.15,41,0,0,0.031611,3.023973,
+TRIAL_0208,EVAL_TRIAL_0208,ml,അടിയന്തര വൈദ്യസഹായം ആവശ്യമാണ്!,rayleigh,15.0,0.25,0.1,emergency,0.05,expired,0,1,0,0,3,0.45,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0209,EVAL_TRIAL_0209,ml,"നമസ്കാരം, സുഖമാണോ?",awgn,15.0,0.0,0.0,normal,,delivered,1,0,0,0,3,122.6,27,0,0,0.032199,4.050552,
+TRIAL_0210,EVAL_TRIAL_0210,ml,"നമസ്കാരം, സുഖമാണോ?",awgn,15.0,0.0,0.0,normal,0.05,expired,0,1,0,0,3,0.5,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0211,EVAL_TRIAL_0211,ml,"നമസ്കാരം, സുഖമാണോ?",awgn,15.0,0.0,0.1,normal,,delivered,1,0,0,0,3,121.83,27,0,0,0.032615,4.050552,
+TRIAL_0212,EVAL_TRIAL_0212,ml,"നമസ്കാരം, സുഖമാണോ?",awgn,15.0,0.0,0.1,normal,0.05,expired,0,1,0,0,3,0.45,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0213,EVAL_TRIAL_0213,ml,"നമസ്കാരം, സുഖമാണോ?",awgn,15.0,0.25,0.0,normal,,delivered,1,0,0,0,3,120.25,27,0,0,0.031561,4.050552,
+TRIAL_0214,EVAL_TRIAL_0214,ml,"നമസ്കാരം, സുഖമാണോ?",awgn,15.0,0.25,0.0,normal,0.05,expired,0,1,0,0,3,0.46,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0215,EVAL_TRIAL_0215,ml,"നമസ്കാരം, സുഖമാണോ?",awgn,15.0,0.25,0.1,normal,,delivered,1,0,0,1,3,181.25,54,27,0,0.030997,4.050552,
+TRIAL_0216,EVAL_TRIAL_0216,ml,"നമസ്കാരം, സുഖമാണോ?",awgn,15.0,0.25,0.1,normal,0.05,expired,0,1,0,0,3,0.45,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0217,EVAL_TRIAL_0217,ml,"നമസ്കാരം, സുഖമാണോ?",rayleigh,15.0,0.0,0.0,normal,,delivered,1,0,0,0,3,117.1,27,0,0,0.031398,4.050552,
+TRIAL_0218,EVAL_TRIAL_0218,ml,"നമസ്കാരം, സുഖമാണോ?",rayleigh,15.0,0.0,0.0,normal,0.05,expired,0,1,0,0,3,0.25,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0219,EVAL_TRIAL_0219,ml,"നമസ്കാരം, സുഖമാണോ?",rayleigh,15.0,0.0,0.1,normal,,delivered,1,0,0,0,3,122.48,27,0,0,0.031009,4.050552,
+TRIAL_0220,EVAL_TRIAL_0220,ml,"നമസ്കാരം, സുഖമാണോ?",rayleigh,15.0,0.0,0.1,normal,0.05,expired,0,1,0,0,3,0.46,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0221,EVAL_TRIAL_0221,ml,"നമസ്കാരം, സുഖമാണോ?",rayleigh,15.0,0.25,0.0,normal,,delivered,1,0,0,1,3,119.5,54,27,0,0.031262,4.050552,
+TRIAL_0222,EVAL_TRIAL_0222,ml,"നമസ്കാരം, സുഖമാണോ?",rayleigh,15.0,0.25,0.0,normal,0.05,expired,0,1,0,0,3,0.24,0,0,0,0.0,0.0,TTL expired before transmission attempt
+TRIAL_0223,EVAL_TRIAL_0223,ml,"നമസ്കാരം, സുഖമാണോ?",rayleigh,15.0,0.25,0.1,normal,,delivered,1,0,0,0,3,54.66,27,0,0,0.031712,4.050552,
+TRIAL_0224,EVAL_TRIAL_0224,ml,"നമസ്കാരം, സുഖമാണോ?",rayleigh,15.0,0.25,0.1,normal,0.05,expired,0,1,0,0,3,0.27,0,0,0,0.0,0.0,TTL expired before transmission attempt

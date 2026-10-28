@@ -1,0 +1,19 @@
+# Core Deep Learning & Scientific Computing
+torch>=2.0.0
+torchaudio>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+pyyaml>=6.0
+
+# Neural Speech Processing & TTS
+transformers>=4.40.0
+soundfile>=0.12.0
+edge-tts>=7.0.0
+
+# Testing & Development
+pytest>=7.4.0
+
+# Future / Hardware SDR Dependencies:
+# librosa>=0.10.0
+# indic-nlp-library>=0.92
+# pyrtlsdr>=0.2.9

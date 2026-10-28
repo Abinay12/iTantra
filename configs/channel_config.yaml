@@ -1,0 +1,36 @@
+# Channel and Transceiver Configuration for iTantra
+
+transceiver:
+  input_dim: 80           # Input feature dimension (e.g., mel filterbank bins or token embeddings)
+  hidden_dim: 128         # Hidden layer dimension for neural encoder/decoder
+  latent_dim: 32          # Latent channel symbol dimension (number of real channel uses)
+  normalize_power: true   # Enforce average transmission power constraint E[|x|^2] <= 1.0
+  device: "cpu"           # Primary target execution device: "cpu" or "cuda"
+
+channel:
+  default_model: "awgn"   # Default channel model: "awgn" or "rayleigh"
+  
+  awgn:
+    snr_db: 10.0          # Signal-to-Noise Ratio in dB for testing/simulation
+    snr_range_db:         # Evaluation sweep range
+      min: -5.0
+      max: 25.0
+      step: 2.5
+
+  rayleigh:
+    snr_db: 10.0          # SNR under Rayleigh fading
+    doppler_freq_hz: 10.0 # Maximum Doppler frequency shift
+    num_taps: 1           # Number of multipath taps (flat fading if 1)
+    coherence_block: 64   # Number of symbols over which channel remains approximately constant
+
+radio:
+  sample_rate_hz: 1000000 # 1 MHz sampling rate for simulated baseband
+  center_freq_hz: 433000000 # 433 MHz ISM band carrier reference
+  preamble_hex: "0xAA55AA55" # Synchronization word
+  crc_type: "crc16"       # Error detection: "crc16" or "crc32"
+  max_payload_bytes: 512  # Maximum packet payload size in bytes
+
+queue:
+  default_priority: "normal"  # "emergency", "high", "normal", or "low"
+  default_ttl_sec: null       # Default Time-To-Live in seconds (null = infinite)
+  default_max_retries: 3      # Maximum ARQ retransmissions on failure
